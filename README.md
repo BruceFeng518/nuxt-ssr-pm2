@@ -2,7 +2,7 @@
  * @Descripttion: 严肃声明：本系统已申请软件著作权，受国家版权局知识产权以及国家计算机软件著作权保护！ 违者使用者必究！ Copyright © 2017 - 2020 all rights reserved 版权所有，侵权必究！
  * @Date: 2022-03-28 16:09:55
  * @LastEditors: 毅源泉科技
- * @LastEditTime: 2022-03-28 23:34:26
+ * @LastEditTime: 2022-03-28 23:44:15
 -->
 
 ## nuxt2+ssr
@@ -23,6 +23,7 @@ $ npm run start
 $ npm run generate
 ```
 
+## [项目线上地址](https://gobrightway.com)
 
 ## 使用说明
 
@@ -53,8 +54,10 @@ $ npm run generate
 1、增加网站 seo、统计脚本代码 （这里以谷歌统计为例）
 
 （1) 在 plugins 目录下创建 ga.js 和gtm.js(谷歌标签管理器)
+
 ga.js
 
+```javascript
 <script>       
     if (process.client && process.env.NODE_ENV === 'production') {
         // if (process.client) {
@@ -110,11 +113,11 @@ ga.js
       
       }
 </script>
-
+```
 
 gtm.js
 
-
+```javascript
 <script>
     export default () => {
 //   if (!gtmKey) { // In case I have other pages not in the switch statement above
@@ -129,7 +132,7 @@ gtm.js
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','xxxx');
 </script>
-
+```
 (2) 添加到 nuxt.config.js 文件 plugins 下
 
 ```
@@ -143,22 +146,22 @@ gtm.js
 
     宝塔安装很方便，傻瓜式一步到位试
     记得安装node.js 和 pm2 
-    ![Image text](https://gitee.com/bruce168/pics/raw/master/1.png)
+    ![安装](https://gitee.com/bruce168/pics/raw/master/1.png)
 
 1、项目打包
     第一步、npm run build
 
     第二步、把文件的.nuxt,static,server,package.json,nuxt.config.js,这五个文件（夹）放到服务器目录文件下，为了防止跨域和产生的不必要麻烦，这里将前端代码和后端代码区分开，分别放在不同域名的服务器站点根目录下（也可以在同一站点下部署）
 
-    ![Image text](https://gitee.com/bruce168/pics/raw/master/0.png)
+    ![位置](https://gitee.com/bruce168/pics/raw/master/0.png)
 
     第三步、用cmd进入目录文件夹，安装依赖，npm install
 
     第四步、npm run start 此时运行的是 http://localhost:3000 说明依赖安装成功;
 
 2、Nginx配置
-    ![Image text](https://gitee.com/bruce168/pics/raw/master/3.png)
-    ![Image text](https://gitee.com/bruce168/pics/raw/master/4.png)
+    ![Nginx配置](https://gitee.com/bruce168/pics/raw/master/3.png)
+    ![Nginx配置](https://gitee.com/bruce168/pics/raw/master/4.png)
 
 
     upstream canada {
