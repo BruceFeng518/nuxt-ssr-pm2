@@ -1,0 +1,122 @@
+[
+  {
+    "name": "apply",
+    "path": "/apply",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\apply\\\\index.vue",
+    "chunkName": "pages/apply/index"
+  },
+  {
+    "name": "article",
+    "path": "/article",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\article\\\\index.vue",
+    "chunkName": "pages/article/index"
+  },
+  {
+    "name": "assessment",
+    "path": "/assessment",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\assessment\\\\index.vue",
+    "chunkName": "pages/assessment/index"
+  },
+  {
+    "name": "bcpnp",
+    "path": "/bcpnp",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\bcpnp\\\\index.vue",
+    "chunkName": "pages/bcpnp/index"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\contact\\\\index.vue",
+    "chunkName": "pages/contact/index"
+  },
+  {
+    "name": "download",
+    "path": "/download",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\download.vue",
+    "chunkName": "pages/download"
+  },
+  {
+    "name": "ee",
+    "path": "/ee",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\ee\\\\index.vue",
+    "chunkName": "pages/ee/index"
+  },
+  {
+    "name": "immigration",
+    "path": "/immigration",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\immigration\\\\index.vue",
+    "chunkName": "pages/immigration/index"
+  },
+  {
+    "name": "job",
+    "path": "/job",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\job\\\\index.vue",
+    "chunkName": "pages/job/index"
+  },
+  {
+    "name": "school",
+    "path": "/school",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\school\\\\index.vue",
+    "chunkName": "pages/school/index"
+  },
+  {
+    "name": "study",
+    "path": "/study",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\study\\\\index.vue",
+    "chunkName": "pages/study/index"
+  },
+  {
+    "name": "visa",
+    "path": "/visa",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\visa\\\\index.vue",
+    "chunkName": "pages/visa/index"
+  },
+  {
+    "name": "work",
+    "path": "/work",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\work\\\\index.vue",
+    "chunkName": "pages/work/index"
+  },
+  {
+    "name": "assessment-study",
+    "path": "/assessment/study",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\assessment\\\\study.vue",
+    "chunkName": "pages/assessment/study"
+  },
+  {
+    "name": "article-id",
+    "path": "/article/:id",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\article\\\\_id.vue",
+    "chunkName": "pages/article/_id"
+  },
+  {
+    "name": "immigration-id",
+    "path": "/immigration/:id",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\immigration\\\\_id.vue",
+    "chunkName": "pages/immigration/_id"
+  },
+  {
+    "name": "school-id",
+    "path": "/school/:id",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\school\\\\_id.vue",
+    "chunkName": "pages/school/_id"
+  },
+  {
+    "name": "study-id",
+    "path": "/study/:id",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\study\\\\_id.vue",
+    "chunkName": "pages/study/_id"
+  },
+  {
+    "name": "visa-id",
+    "path": "/visa/:id",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\visa\\\\_id.vue",
+    "chunkName": "pages/visa/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\phpstudy_pro\\\\WWW\\\\gobright\\\\gitee test\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "Advantage": {
+    "description": "Auto imported from components/Advantage/Advantage.vue"
+  },
+  "ArticleList": {
+    "description": "Auto imported from components/ArticleList/ArticleList.vue"
+  },
+  "Banner": {
+    "description": "Auto imported from components/Banner/banner.vue"
+  },
+  "BannerBox": {
+    "description": "Auto imported from components/BannerBox/BannerBox.vue"
+  },
+  "Btn": {
+    "description": "Auto imported from components/Btn/Btn.vue"
+  },
+  "Breadcrumb": {
+    "description": "Auto imported from components/Breadcrumb/Breadcrumb.vue"
+  },
+  "Case": {
+    "description": "Auto imported from components/Case/Case.vue"
+  },
+  "Contact": {
+    "description": "Auto imported from components/Contact/contact.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer/Footer.vue"
+  },
+  "Form": {
+    "description": "Auto imported from components/Form/form.vue"
+  },
+  "FormBox": {
+    "description": "Auto imported from components/FormBox/FormBox.vue"
+  },
+  "Gird": {
+    "description": "Auto imported from components/Gird/Gird.vue"
+  },
+  "Gird2": {
+    "description": "Auto imported from components/Gird/Gird2.vue"
+  },
+  "Gird3": {
+    "description": "Auto imported from components/Gird/Gird3.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header/Header.vue"
+  },
+  "Hold": {
+    "description": "Auto imported from components/Hold/Hold.vue"
+  },
+  "Job": {
+    "description": "Auto imported from components/Job/Job.vue"
+  },
+  "Left": {
+    "description": "Auto imported from components/Left/Left.vue"
+  },
+  "Left1": {
+    "description": "Auto imported from components/Left/Left1.vue"
+  },
+  "Loading": {
+    "description": "Auto imported from components/Loading/Loading.vue"
+  },
+  "Map": {
+    "description": "Auto imported from components/Map/Map.vue"
+  },
+  "News": {
+    "description": "Auto imported from components/News/News.vue"
+  },
+  "News1": {
+    "description": "Auto imported from components/News/News1.vue"
+  },
+  "NoData": {
+    "description": "Auto imported from components/NoData/NoData.vue"
+  },
+  "Scan": {
+    "description": "Auto imported from components/Scan/Scan.vue"
+  },
+  "Search": {
+    "description": "Auto imported from components/Search/Search.vue"
+  },
+  "SelfTest": {
+    "description": "Auto imported from components/SelfTest/SelfTest.vue"
+  },
+  "Tab": {
+    "description": "Auto imported from components/Tab/Tab.vue"
+  },
+  "Tabs": {
+    "description": "Auto imported from components/Tabs/Tabs.vue"
+  },
+  "Tag": {
+    "description": "Auto imported from components/Tag/Tag.vue"
+  },
+  "Title": {
+    "description": "Auto imported from components/Title/title.vue"
+  }
+}
