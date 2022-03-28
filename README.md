@@ -2,7 +2,7 @@
  * @Descripttion: 严肃声明：本系统已申请软件著作权，受国家版权局知识产权以及国家计算机软件著作权保护！ 违者使用者必究！ Copyright © 2017 - 2020 all rights reserved 版权所有，侵权必究！
  * @Date: 2022-03-28 16:09:55
  * @LastEditors: 毅源泉科技
- * @LastEditTime: 2022-03-28 23:27:18
+ * @LastEditTime: 2022-03-28 23:32:21
 -->
 
 ## nuxt2+ssr
@@ -32,6 +32,7 @@ $ npm run generate
 
 目录结构
 
+```
 ├── assets css，图片等资源都在这
 ├── components 组件相关
 ├── locales 多语言
@@ -44,7 +45,7 @@ $ npm run generate
 ├── nuxt.config.js nuxt 相关配置
 ├── package.json 依赖相关
 ├── README.md 项目介绍
-
+```
 
 
 ## 一、项目简单介绍
@@ -53,6 +54,7 @@ $ npm run generate
 
 （1) 在 plugins 目录下创建 ga.js 和gtm.js(谷歌标签管理器)
 ga.js
+```
 <script>       
 if (process.client && process.env.NODE_ENV === 'production') {
     // if (process.client) {
@@ -108,9 +110,11 @@ if (process.client && process.env.NODE_ENV === 'production') {
       
       }
 </script>
-
+```
 
 gtm.js
+
+```
 <script>
     export default () => {
 //   if (!gtmKey) { // In case I have other pages not in the switch statement above
@@ -125,12 +129,16 @@ gtm.js
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','xxxx');
 </script>
+```
 (2) 添加到 nuxt.config.js 文件 plugins 下
+
+```
     plugins:[
         { src: '@/plugins/ga',mode: 'client' }, //只在客户端生效
         { src: '@/plugins/gtm', mode: 'client' },
-    ],
- 
+    ]
+``` 
+
 ## 二、PC端项目宝塔部署(重点)
 
     宝塔安装很方便，傻瓜式一步到位试
