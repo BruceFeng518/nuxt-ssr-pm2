@@ -5,7 +5,7 @@
  * @Author: Bruce Feng
  * @Date: 2020-12-08 11:51:43
  * @LastEditors: 毅源泉科技
- * @LastEditTime: 2022-03-28 18:38:03
+ * @LastEditTime: 2022-03-28 20:33:39
  */
 const env = require('./env');
 const path = require('path')
@@ -41,7 +41,7 @@ module.exports = {
         type: "text/css",
         href: "//at.alicdn.com/t/font_2267412_12yrb2srs76p.css"
       },
-      // {  rel:'stylesheet' , href:'//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,400italic|Material+Icons'  }
+      {  rel:'stylesheet' , href:'//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,400italic|Material+Icons'  }
     ],
     script: [
       { src: "/js/flexible.js", type: "text/javascript", charset: "utf-8" },
@@ -106,11 +106,10 @@ module.exports = {
     { src: "@/plugins/nprogress", ssr: false },
     { src: "@/plugins/vue-lazyload", ssr: true },
     { src: "@/plugins/i18n"},
-    // { src: "@/plugins/vue-infinite-scroll", ssr: false },
-    // {
-    //   src: '@/plugins/ga',
-    //   mode: 'client'               //只在客户端生效
-    // },
+    {
+      src: '@/plugins/ga',
+      mode: 'client'               //只在客户端生效
+    },
     { src: '@/plugins/gtm', mode: 'client' },
     { src: "@/plugins/bus", ssr: false },
     { src: "@/plugins/components", ssr: false },
