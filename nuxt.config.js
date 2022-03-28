@@ -5,7 +5,7 @@
  * @Author: Bruce Feng
  * @Date: 2020-12-08 11:51:43
  * @LastEditors: 毅源泉科技
- * @LastEditTime: 2022-03-28 17:41:22
+ * @LastEditTime: 2022-03-28 18:38:03
  */
 const env = require('./env');
 const path = require('path')
@@ -134,7 +134,7 @@ module.exports = {
   },
   proxy: {
     "/api": {
-      target: 'https://www.test.com/', //生产环境，开发环境不用管
+      target: env[process.env.NODE_ENV].API_BASE_URL, //生产环境，开发环境不用管
       pathRewrite: {
         "^/api": "/",changeOrigin: true
       }
