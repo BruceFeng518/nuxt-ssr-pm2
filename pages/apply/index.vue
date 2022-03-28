@@ -1,15 +1,3 @@
-<!--
- * @Descripttion: 严肃声明：本系统已申请软件著作权，受国家版权局知识产权以及国家计算机软件著作权保护！ 违者使用者必究！ Copyright © 2017 - 2020 all rights reserved 版权所有，侵权必究！
- * @version: 2.0
- * @Author: 毅源泉科技 冯勤毅
- * @Date: 2021-03-26 13:31:14
--->
-<!--
- * @Descripttion: 严肃声明：本系统已申请软件著作权，受国家版权局知识产权以及国家计算机软件著作权保护！ 违者使用者必究！ Copyright © 2017 - 2020 all rights reserved 版权所有，侵权必究！
- * @version: 2.0
- * @Author: 毅源泉科技 冯勤毅
- * @Date: 2021-03-23 17:22:44
--->
 <template>
   <div class="container" :class="cc()">
     <banner-box v-if="id" pic="cbg6" :pid="id" :title="`${id == 28?$t('apply.middle.title') : id == 29 ? $t('apply.universi.title'): $t('apply.graduate.title')}`" :sub="`${id == 28?$t('apply.middle.sub') : id == 29 ? $t('apply.universi.sub'): $t('apply.graduate.sub')}`"/>
